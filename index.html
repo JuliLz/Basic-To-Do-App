@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Lista de pendientes</h1>
+
+      <div class="todo-container">
+        <div class="input-section">
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="Agregar una nueva tarea..."
+          />
+          <button class="add-btn">+</button>
+        </div>
+
+        <form id="todo-form">
+          <ul class="todo-list"></ul>
+        </form>
+
+        <div class="stats">
+          <span class="tasks-left">0 Tareas pendientes</span>
+          <button class="clear-btn">Borrar todas</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
